@@ -7,17 +7,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0e0e0e;
+    background-color: whitesmoke;
     font-size: 15px;
 }
 .main-container{
-    background-color: hsl(0, 0%, 90%);
-    width: 75%;
-    margin: auto;
+    /*background-color: hsl(0, 0%, 90%);*/
+    width: 80%;
+    margin: 5% auto;
     height: 622px;
     display: flex;
     align-items: center;
-    margin-top: 15%; 
+    /*margin-top: 15%; */
 }
 .mid-content{
     display: flex;
@@ -82,4 +82,21 @@ body{
     width: 50%;
     margin: auto;
     cursor: pointer;
+}
+
+
+.header{
+    background: whitesmoke;
+    padding: 20px;
+    
+}
+.header a{
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+a:hover{
+    color: orangered;
 }
